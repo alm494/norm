@@ -111,8 +111,7 @@ void parseArgs(int argc, char **argv) {
 void showHelp() {
   printf("\nnorm utility (c) 2021 Алмаз Шарипов\n\n");
   printf(
-      "Использование: norm -i <строка> [-r] [-j <число>] [-b <число>] [-o "
-      "<строка>]\n\n");
+      "Использование: norm -i <строка> [-r] [-j <число>] [-b <число>]\n\n");
   printf("Параметры:\n");
   printf(
       "   -i 'rphost_8508'    Искать файлы ТЖ в указанной папке. Обязательный "
